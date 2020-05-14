@@ -14,10 +14,8 @@
 1. Launch 1 batch or sh file per card using mine_uart as example
 
 ### Linux specific:
-Ensure telminer is executable chmod 755 the telminer file
-
-chmod and execute mine_uart.sh for each card.
-
+Ensure telminer is executable
+`chmod 755 telminer`
 Note: type sudo rmmod ftdi_sio if no FKs are detected.
 
 ### Windows Specific:
