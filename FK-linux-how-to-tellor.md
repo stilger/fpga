@@ -15,7 +15,9 @@
 
 ### Linux specific:
 Ensure telminer is executable chmod 755 the telminer file
+
 chmod and execute mine_uart.sh for each card.
+
 Note: type sudo rmmod ftdi_sio if no FKs are detected.
 
 ### Windows Specific:
