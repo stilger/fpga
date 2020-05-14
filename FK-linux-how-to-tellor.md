@@ -4,6 +4,7 @@
     1. Bitstream - https://cdn.discordapp.com/attachments/707358075773780021/708131451144765440/tellor_fk33_uart.bit.zip
     1. Miner - https://cdn.discordapp.com/attachments/707358075773780021/708130442452402246/TellorMinerTCPandUART.zip
     1. Miner Update - https://cdn.discordapp.com/attachments/707358075773780021/708187628599640115/tellor-miners-update.zip
+    1. TCP Bridge - https://cdn.discordapp.com/attachments/707358075773780021/708141165731381248/sqrl_tcp_bridge_linux_v1_0_1.zip
 1. Make sure eeprom is up to date
     1. Linux: http://zetheron.com/d107280/FK_EEPROM_Update_Linux
     1. Windows: http://zetheron.com/d107280/FK_EEPROM_Update_Win10.exe
