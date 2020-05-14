@@ -15,8 +15,8 @@
 
 ### Linux specific:  
 Ensure telminer is executable  
-`chmod 755 telminer`  
-Note: type sudo rmmod ftdi_sio if no FKs are detected.
+    `chmod 755 telminer`  
+Note: type `sudo rmmod ftdi_sio` if no FKs are detected.
 
 ### Windows Specific:  
 Disable virusscan on directory with miner. 
