@@ -8,6 +8,7 @@ if [ -f "$card.log" ]; then
 		sleep 300
 		while [ "$(tail -20 $card.log | grep FTDI | wc -l)" -ge 10 ]; do
 			echo "$(date) - Good: $(tail -20 $card.log | grep FTDI | wc -l) of 10 needed -  Waiting 5 minutes"
+			sleep 300
 			done 
 		echo "$(date) - Problem: $(tail -20 $card.log | grep FTDI | wc -l) of 10 needed - killing card"
 		pkill -f ".$card -"
