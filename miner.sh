@@ -14,6 +14,7 @@ else
 	echo "Syntax: miner.sh card algo"
 	echo "Supported Algos: tellor odo"
 	echo "Example: miner.sh fk1 tellor"
+	exit
 fi
 
 if [ "$algo" == "odo" ]; then
@@ -36,6 +37,7 @@ else
 	echo "Syntax: miner.sh card algo"
 	echo "Supported Algos: tellor odo"
 	echo "Example: miner.sh fk1 tellor"
+	exit
 fi
 
 $nextjtagpath/nextjtag --dna $dna --set-voltage $voltage
